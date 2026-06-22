@@ -14,6 +14,9 @@ ___INFO___
   "version": 1,
   "securityGroups": [],
   "displayName": "Demandbase One Tag (Unofficial)",
+  "categories": [
+    "MARKETING"
+  ],
   "brand": {
     "id": "brand_dummy",
     "displayName": "",
@@ -264,6 +267,6 @@ scenarios: []
 
 ___NOTES___
 
-Created on 6/1/2026, 9:50:01 AM
+Created on 6/22/2026, 8:36:35 AM
 
 

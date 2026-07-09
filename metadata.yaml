@@ -2,5 +2,10 @@
 homepage: https://dumbdata.co/
 documentation: https://github.com/Jude-Nwachukwu/Demandbase-One-Tag-GTM-template
 versions:
+#LATEST VERSION
+  - sha: 8651391516bb398c4e5a0ce803d1b8f999e6daa2
+    changeNotes: encodeUri trackingid.
+
+#INITIAL VERSION
   - sha: 95aa2f05b552e526789efcb0aade9aaa98904891
     changeNotes: Initial release.

@@ -84,6 +84,7 @@ const injectScript = require('injectScript');
 const callInWindow = require('callInWindow');
 const logToConsole = require('logToConsole');
 const queryPermission = require('queryPermission');
+ const encodeUri = require('encodeUri');
 
 // ─── Determine which tag mode is configured ───────────────────────────────────
 const tagType = data.tagType;
@@ -103,7 +104,7 @@ if (tagType === 'initialLoad') {
   }
 
   // Build the Demandbase script URL using the provided Tracking ID
-  const scriptUrl = 'https://tag.demandbase.com/' + trackingId + '.min.js';
+  const scriptUrl = 'https://tag.demandbase.com/' + encodeUri(trackingId) + '.min.js';
 
   // Confirm inject_script permission covers this URL before proceeding
   if (!queryPermission('inject_script', scriptUrl)) {
@@ -267,6 +268,6 @@ scenarios: []
 
 ___NOTES___
 
-Created on 6/22/2026, 8:36:35 AM
+Created on 7/9/2026, 2:59:54 PM
 
 
